@@ -15,7 +15,7 @@ Motivated Software Engineer with 5 years of experience seeking employment as par
 **Education:**
 * Bachelor of Technology  (Information Technology)  - Anna University, India
 * Practicing Waterfall and Agile development methodologies
-* Currently a student of Kalacademy (Data Structures and Algorithm Course)
+* Currently a student at Kalacademy (practising Data Structures and Algorithms)
 ________________________________________________________________________________________________________________________________________
 
 **Employment History:**
