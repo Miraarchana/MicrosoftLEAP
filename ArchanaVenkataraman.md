@@ -1,6 +1,6 @@
 **Archana Venkataraman**
 
-miraarchana@gmail.com | (832) 758-6953
+miraarchana@gmail.com
 ________________________________________________________________________________________________________________________________________	
 **Objective:**
 Motivated Software Engineer with 5 years of experience seeking employment as part of dynamic software development team. Focused and detail-oriented offering exceptional troubleshooting skills and a talent for developing innovative solutions to unusual and difficult problems. Experienced in object-oriented programming, developing, testing and debugging code. Quickly able to learn and master new technologies with proven success working in both team and self-directed settings.
