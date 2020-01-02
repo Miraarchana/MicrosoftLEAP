@@ -80,8 +80,10 @@ format string with locale setting
     >int.Parse(test.Replace(",",""))
     12234
 '''
+
 int.TryParse(str,out)- will attempt to parse, if it fails exception is not thrown. uniqueness of TryParse() is its return has two parts.
 out variable is set in case of successful execution of TryParse(). it returns a boolean and its out variable holds int.
+
 '''
    >int result;
    >int.TryParse("12,234",out result)
@@ -93,3 +95,21 @@ out variable is set in case of successful execution of TryParse(). it returns a 
    >result
    12234
 '''
+*Math in C#:*
+
+12. +,-,*,/,%,++,-- operators and other Math functions like abs,pow,round,floor,ceiling
+
+*Constants and enumeration*
+
+13. constants - const float pi =3.14f;
+>enum weekDays {Monday, Tuesday, Wednesday, Thursday, Friday };
+>var someDays = weekDays.Monday;
+we can also set the value of each item in enum explicitly like Monday=1, Tuesday=3..
+
+
+
+
+
+
+
+
