@@ -6,6 +6,7 @@ C# Essential 1:
 
 *Declaring variables:*
 2. implicit typing- supports untyped or weakly typed language
+
 ''' eg., var stringFirst = "This is a String";
       stringFirst
 	"This is a String"
@@ -16,6 +17,7 @@ C# Essential 1:
 primitive types: types that cannot be deconstructed into 
 4. int - signed integer
    uint - unsigned integer (double the max value to use larger positive integer value)
+   
  '''eg., >int bigInt = int.MAX_VALUE;
       >uint positiveInt = uint.MAX_VALUE;
       >bigInt
@@ -25,17 +27,23 @@ primitive types: types that cannot be deconstructed into
  '''
 short, long, float
 5. convert ambiguous assignment to unambiguous.
+
 >float pie = 3.14;
 error: literal of type double cannot be implicitly converted to type 'float'
 >float pie = 3.14f;
-Everything is an Object:
+
+*Everything is an Object:*
+
 6. all data types are treated as an Object with collection of static and member variables
+
  >int.Parse("15")
  15
  >var test ="abcde";
  >test.ToUpper()
  "ABCDE"
-Working with Strings:
+ 
+*Working with Strings:*
+
 7. Trim,TrimEnd,TrimeStart
 8. ToUpper(),ToLower()
 challenge: 
@@ -60,6 +68,7 @@ remove trailing or leading spaces.
 '''
 10. string formatter- string.Format()
 format string with locale setting
+
 11.PArsing strings
 '''
     >int.Parse("14")
@@ -71,4 +80,16 @@ format string with locale setting
     >int.Parse(test.Replace(",",""))
     12234
 '''
-
+int.TryParse(str,out)- will attempt to parse, if it fails exception is not thrown. uniqueness of TryParse() is its return has two parts.
+out variable is set in case of successful execution of TryParse(). it returns a boolean and its out variable holds int.
+'''
+   >int result;
+   >int.TryParse("12,234",out result)
+   false
+   >result
+   0
+   >int.TryParse("12234",out result)
+   true
+   >result
+   12234
+'''
