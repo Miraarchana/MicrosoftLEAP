@@ -1,26 +1,28 @@
 C# Essential 1:
 
 
-C# interactive
+*C# interactive*
 1. to get the result of an expression, dont end the line with ;
 
-Declaring variables:
+*Declaring variables:*
 2. implicit typing- supports untyped or weakly typed language
- eg., var stringFirst = "This is a String";
+''' eg., var stringFirst = "This is a String";
       stringFirst
 	"This is a String"
+'''
 3. unlike weak typing language (JS) "" represents string and '' represents char
 
-Built-in data types:
+*Built-in data types:*
 primitive types: types that cannot be deconstructed into 
 4. int - signed integer
    uint - unsigned integer (double the max value to use larger positive integer value)
- eg., >int bigInt = int.MAX_VALUE;
+ '''eg., >int bigInt = int.MAX_VALUE;
       >uint positiveInt = uint.MAX_VALUE;
       >bigInt
       2147483647
       >positiveInt
       4294967295
+ '''
 short, long, float
 5. convert ambiguous assignment to unambiguous.
 >float pie = 3.14;
@@ -44,6 +46,7 @@ remove trailing or leading spaces.
 "REALLY GREAT"
 >
 9. String concatenation - 
+'''
       >var sb = new StringBuilder();
       >sb.Append("aa");
       >sb.Append("bb");
@@ -54,9 +57,11 @@ remove trailing or leading spaces.
       >sb.AppendLine("dsfgdfG");
       >sb.ToString()
       "aabb\r\ndsfgdfG\r\n"
+'''
 10. string formatter- string.Format()
 format string with locale setting
 11.PArsing strings
+'''
     >int.Parse("14")
     14
     >int.Parse("12,234")
@@ -65,4 +70,5 @@ format string with locale setting
     >var test = "12,234";
     >int.Parse(test.Replace(",",""))
     12234
+'''
 
