@@ -112,8 +112,10 @@ out variable is set in case of successful execution of TryParse(). it returns a 
 we can also set the value of each item in enum explicitly like Monday=1, Tuesday=3..
 
 *Date and Time*
+
 14. DateTime.Now -	current date and time
     TimeSpan - is used for arithmetic operations
+    
     ```
     >var birthday = new DateTime(1967,10,2);
     >var difference = DateTime.Now - birthday;
@@ -123,6 +125,7 @@ we can also set the value of each item in enum explicitly like Monday=1, Tuesday
     18023
     ```
     gives the number days on earth since birth for a birthdate
+    
     ```
     >var dateTime = new DateTime(2010,10,18,9,51,32);
     ```
@@ -142,7 +145,7 @@ we can also set the value of each item in enum explicitly like Monday=1, Tuesday
 ```
 public class Dummy
 {
-    private string _name;
+    private string _name;//backing field
  
     public string Name
     {
@@ -158,6 +161,34 @@ public class Dummy
     public string Name { get; set; }
 }
 ```
+4. Backing field - getter setter
+5. Encapsulation and access specifier
+
+    public  - seen outside of the class
+    private - seen inside of the class
+    protected
+    internal
+    
+6. Constructor
+	- run immediately when an object is instantiated.
+	Hint: editor trick enter 'ctor' and hit tab key twice - creates the default constructor for the class
+	constructor access specifier - public
+	
+7. Creating Methods
+	*Common Method block*
+	```
+	public float AverageOfThreeNumbers(float a, float b, float c){
+		return (a+b+c)/3;
+	}
+	```
+	*Function bodied expressions* (new in C# 6)
+		- simple method can be concisely written using function bodied expression.
+	```
+	public float AverageOfThreeNumbers(float a, float b, float c) => (a+b+c)/3;
+	```
+	*static Methods* - used without instantiation
+	
+
 
     
 
