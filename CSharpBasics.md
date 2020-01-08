@@ -189,7 +189,7 @@ public class Dummy
 	*static Methods* - used without instantiation
 	
 
-
+*4. Object-Oriented Features:*
     
 
 
