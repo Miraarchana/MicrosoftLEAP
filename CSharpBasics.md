@@ -190,12 +190,43 @@ public class Dummy
 	
 
 *4. Object-Oriented Features:*
+    *Inheritance :*
+    ```
+    public abstract class Person
+    {
+    	public string Name {get; set;}
+	public string Email {get; set;}
+	public abstract float ComputeGradeLevel(); //abstract method - which is rquired to be overridden in all sub class
+    }
     
+    public class Student : Person
+    {
+    	public override float ComputeGradeLevel()
+	{
+		//logic goes here
+		return 4.0f;
+	}
+    }
+    
+    public class Teacher : Person
+    {
+    	public override float ComputeGradeLevel()
+	{
+		//logic goes here
+		return 0.0f;
+	}
+    }
+    ```
+*Virtual Methods:*
+ - If anything that is to be overriden in sub class, we must use Virtual keyword (may be override later - optional), abstract method (must be overridden in all sub classes)
 
-
-
-
-
+*Interface:*
+ - contract between all programmers to implement certain behavior.
+ - multiple interfaces can be implemented
+ 
+ *Extension Methods:*
+ -  allows you to inject additional methods without modifying , deriving and recompiling the original class.
+ - additional method can be added to user defined class, .Net framework classes, or third party classes or interfaces
 
 
 
