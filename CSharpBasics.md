@@ -230,3 +230,45 @@ public class Dummy
 
 
 
+*C# : Basics 2*
+
+*Array in C#*
+
+- Like in Java, Arrays are tightly coupled with size and type
+- to resize an array Array.resize(ref <arrayref>, int size) must be passed
+- mulitdimensional array - use case for problems involving analytical programming like spread sheet
+``` 
+var multi = new int[3, 4] {
+. {0,1,2,3 },
+. {4,5,6,7 },
+. {8,9,10,11 }};
+> multi
+int[3, 4] { { 0, 1, 2, 3 }, { 4, 5, 6, 7 }, { 8, 9, 10, 11 } }
+> multi[2,3]
+11
+```
+- Feature Set  - Language Integrated Query (LINQ) - hook on to any Collection and allows us to use
+	implemented as extension classes
+	```
+	> var listOfNumbers = new int[5] { 1, 2, 3, 4, 5 };
+> listOfNumbers.Sum()
+15
+> listOfNumbers.Average()
+3
+> listOfNumbers.Where(item => item>=3)
+Enumerable.WhereArrayIterator<int> { 3, 4, 5 }
+> 
+	```
+*Dictionary*
+
+```
+> var dictWord = new Dictionary<string, string>();
+> dictWord.Add("var", "shorthand for variable");
+> dictWord.Add("function", "work on data");
+> dictWord.Add("variable", "a container for data");
+> dictWord.Count
+3
+> dictWord.Keys
+Dictionary<string, string>.KeyCollection(3) { "var", "function", "variable" }
+> 
+```
