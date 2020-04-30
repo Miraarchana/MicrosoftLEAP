@@ -20,7 +20,7 @@ ________________________________________________________________________________
 
 **Employment History:**
 
-*01/2020 - now | Microsoft LEAP Apprenticeship, Redmond, Washington, United States | Software Engineer*
+*01/2020 - present | Microsoft LEAP Apprenticeship, Redmond, Washington, United States | Software Engineer*
 
 This project involved designing and developing Application Program Interface(API) for fetching and maintaining an Windows Update Patch status for all the systems in configuration. The project also focusses on performing these operations as a back-ground scheduled service. My work evolves around
 - Analysis and Designing the system. 
