@@ -7,19 +7,27 @@ Motivated Software Engineer with 5 years of experience seeking employment as par
 
 **Skills Summary:**
  * Experience in design and development of web-based applications using Spring framework, Spring Boot.
- * Expertise in Core Java like Multithreading, Collections and Exception handling.
- * Experienced in Object-oriented programming.
+ * Expertise in Core Java and C#. Worked on designing and implementing multithreaded applications.
+ * Experience in Object-oriented programming.
  * Experience in Hibernate (ORM tool).
  * Experience in Microservice Architecture.
 
 **Education:**
 * Bachelor of Technology  (Information Technology)  - Anna University, India
 * Practicing Waterfall and Agile development methodologies
-* Currently a student at Kalacademy (practising Data Structures and Algorithms)
+* Student of Kalacademy (Data Structures and Algorithms)
 ________________________________________________________________________________________________________________________________________
 
 **Employment History:**
 
+*01/2020 - now | Microsoft LEAP Apprenticeship, Redmond, Washington, United States | Software Engineer*
+This project involved designing and developing Application Program Interface(API) for fetching and maintaining an Windows Update Patch status for all the systems in configuration. The project also focusses on performing these operations as a back-ground scheduled service. My work evolves around
+- Analysis and Designing the system. 
+- Developing ASP.Net Core WebAPI and other components like Windows Service for Client Server model.
+- Reporting custome event to Azure Application Insights for generating reports.
+*Technology:*
+C#, ASP.Net Core, SQL server.
+----------------------------------------------------------------------------------------------------------------------------------------
 *8/2011 – 8/2012 | Polaris Software Lab, Chennai, India | Associate Consultant| Client - Citibank*
 
 This project involved migrating Citibank customer facing websites to use next generation proprietary framework. My role involved in understanding the existing systems and re-engineer existing systems to use new proprietary framework.
