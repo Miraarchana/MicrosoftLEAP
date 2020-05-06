@@ -23,7 +23,7 @@ ________________________________________________________________________________
 *01/2020 - present | Microsoft LEAP Apprenticeship, Redmond, Washington, United States | Software Engineer*
 
 This project involved designing and developing Application Program Interface(API) for fetching and maintaining an Windows Update Patch status for all the systems in configuration. The project also focusses on performing these operations as a back-ground scheduled service. My work evolves around
-- Analysis and Designing the system. 
+- Analysizing and Designing the system. 
 - Developing ASP.Net Core WebAPI and other components like Windows Service for Client Server model.
 - Reporting custome event to Azure Application Insights for generating reports.
 *Technology:*
